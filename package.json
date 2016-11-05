@@ -1,0 +1,35 @@
+{
+  "name": "angular.koans",
+  "version": "1.0.0",
+  "description": "JS & Angular",
+  "main": "index.js",
+  "scripts": {
+    "prestart":" npm i",
+    "start": "live-server",
+    "deploy": "surge -p .",
+    "es6": "webpack -w"
+  },
+  "keywords": [
+    "angular",
+    "bootcamp",
+    "philos.io",
+    "javascript"
+  ],
+  "author": "007@hackages.io",
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "^1.4.9",
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "live-server": "^0.9.1",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "surge": "^0.17.7"
+  }
+}
